@@ -122,11 +122,11 @@ function Player(x,y,radius){
             if((circleArray[i].x+circleArray[i].radius - window.innerWidth >=20 || circleArray[i].x-circleArray[i].radius - window.innerWidth <= 20) && circleArray[i].radius>23){
             
              if(score>2000)
-             sc -= 3;
+             sc -= 5;
              else if(score>10000)
-             sc -= 30;
+             sc -= 40;
              else
-                sc -=2;
+                sc -=4;
                 if(this.radius>50)
                 this.radius -= 0.06;
                 else if(this.radius>15)
