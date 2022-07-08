@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    cursor:none;
+    overflow: hidden;
+    color:white;
+    background-color: rgb(61, 61, 61);
+}
+.container{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.score{
+    margin-right: 30px;
+    margin-top: 10px;
+    display:inline;
+    font-family: 'Courier New', Courier, monospace;
+}
+.highScore{
+    
+    margin-left: 30px;
+    display:inline;
+    margin-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
